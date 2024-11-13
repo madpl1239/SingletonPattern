@@ -1,14 +1,13 @@
 /*
  * main.cpp
  *
- * Przykład użycia singletonu.
+ * Example of use singleton.
  *
  * 30-07-2020 LANA Systems.
  */
 #include <iostream>
 
 
-// Singleton Meyersa
 class CSingleton
 {
 public:	
@@ -27,12 +26,12 @@ public:
 private:
 	CSingleton()
 	{
-		std::cout << "constructor CSingleton()\n";
+		std::cout << "ctor CSingleton()\n";
 	}
 	
 	~CSingleton()
 	{
-		std::cout << "destructor CSingleton()\n";
+		std::cout << "dtor CSingleton()\n";
 	}
 };
 
